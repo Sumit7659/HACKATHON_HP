@@ -1,0 +1,148 @@
+
+body{
+    border: 20px solid rgb(229, 47, 97);
+}
+
+.header{
+    display: flex;
+    min-width: 100vh;
+    justify-items: space-between;
+}
+
+.header-section1{
+    padding: 10px;
+}
+.header-section2{
+    width: 500px;
+    align-self: center;
+    padding-left: 500px;
+}
+.searchbar{
+    transition: width 2s, height 4s;
+}
+.header-section3{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.searchbar:hover {
+    width: 300px;
+    height: 10px;
+}
+
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.sidebar_nevigation{
+float: left;
+height: 129vh;
+background-color: black;
+padding: 30px;
+color: white;
+
+}
+
+h3:hover{
+    color: rgb(229, 47, 97);
+
+}
+
+.images{
+    display: flex;
+    height: 212px;
+}
+
+
+.part-1{
+    display: flex;
+    padding-left: 50px;
+}
+
+.section1-2{
+    padding-left: 500px;
+    padding-right: 100px;
+}
+.rating{
+    border: solid 1px whitesmoke;
+    background-color: rgb(229, 47, 97);
+    color: white;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.part-2{
+    border: 2px solid whitesmoke;
+    padding: 20px;
+}
+
+.part-2_1{
+    display:flex;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+.part-2_2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.part-2_2_1{
+    justify-content: end;
+}
+.part-3_1{
+    border: 2px solid whitesmoke;
+    margin: 10px;
+    width: 250px;
+}
+.part-3_1_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.part-3_1_1_1{
+    display: flex;
+    flex-direction:column;
+}
+
+.part-3_2{
+    border: 2px solid whitesmoke;
+    margin: 10px;
+    width: 250px;
+
+}
+.part-3_1_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+.book-now{
+        border-radius: 25px;
+        background: rgb(229, 47, 97);
+        width: 200px;
+        height: 50px;
+        border: solid 1px white;
+        color: white; 
+}
+
+.part-s{
+    display: flex;
+    border: solid 5px white;
+    margin: 10px 10px 0px 20px;
+}
+
+a{
+    color:rgb(229, 47, 97) ;
+}
+.rate{
+    color: rgb(229, 47, 97);
+}
